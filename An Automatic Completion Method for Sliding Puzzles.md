@@ -23,7 +23,7 @@ puzzle::puzzle(){ //생성자   
 		printpuz();
 }
 
-void puzzle::printpuz(){ //콘솔창에 퍼즐 출력    
+void puzzle::printpuz(){  //콘솔창에 퍼즐 출력    
 		int a;   
 		cout<<"---------------"<<endl;  
 		for(a=0; a<25; a++){    
