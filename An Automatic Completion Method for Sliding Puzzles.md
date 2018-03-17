@@ -11,8 +11,7 @@ class puzzle{       //슬라이드 퍼즐 클래스   
 		void complete_message(); //결과 메세지    
 		void move(int a);  //a번 자리의 퍼즐 이동    
 		void change(int a, int b); // 두 자리의 퍼즐을 교환
-    int find(int a);  // 25개 배열을 탐색해 a의 자리를 반환  
-		
+		int find(int a);  // 25개 배열을 탐색해 a의 자리를 반환  
 		void makeway(int x, int a, int b);  //0을 이동시켜 길을 만든다. (a에서 b로 만든다.)    
 		void locate(int a, int b); //a를 제자리에 위치시킨다. a를 b자리로 옮긴다.    
 		void locate_2(int a); //a를 제자리에 위치시킨다. 행, 열의 끝부분 처리.    
